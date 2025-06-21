@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65CBED7B-83D8-40F8-A6E2-87B80EE9CAB2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wellness</RootNamespace>
+    <AssemblyName>wellness</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutus.aspx" />
+    <Content Include="abtanxiety.aspx" />
+    <Content Include="abtbipolar.aspx" />
+    <Content Include="abtdepp.aspx" />
+    <Content Include="abteating.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="additionalpg1.aspx" />
+    <Content Include="additionalpg1.css" />
+    <Content Include="additionalpg2.aspx" />
+    <Content Include="ADMIN LOGIN.aspx" />
+    <Content Include="admin1.aspx" />
+    <Content Include="admin2.aspx" />
+    <Content Include="admin3.aspx" />
+    <Content Include="admin4.aspx" />
+    <Content Include="articles.aspx" />
+    <Content Include="attempt1.aspx" />
+    <Content Include="anxiety.aspx" />
+    <Content Include="attempt3.aspx" />
+    <Content Include="attempt44.aspx" />
+    <Content Include="bookrefaspx.aspx" />
+    <Content Include="consult.aspx" />
+    <Content Include="contactt.aspx" />
+    <Content Include="crystal1.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="form1.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="images\12.png" />
+    <Content Include="images\13.png" />
+    <Content Include="images\14.png" />
+    <Content Include="images\15.png" />
+    <Content Include="images\16.png" />
+    <Content Include="images\17.png" />
+    <Content Include="images\18.png" />
+    <Content Include="images\19.png" />
+    <Content Include="images\20.png" />
+    <Content Include="images\29.png" />
+    <Content Include="images\30.png" />
+    <Content Include="images\31.png" />
+    <Content Include="images\32.png" />
+    <Content Include="images\aboutus1.png" />
+    <Content Include="images\aboutus2.png" />
+    <Content Include="images\aboutus3.png" />
+    <Content Include="images\aboutusbtn.png" />
+    <Content Include="images\abtanxixety.png" />
+    <Content Include="images\abtbipolar.png" />
+    <Content Include="images\abtdepression.png" />
+    <Content Include="images\abteating.png" />
+    <Content Include="images\Admin login.png" />
+    <Content Include="images\adminlogbtn.png" />
+    <Content Include="images\adminloginbutton.png" />
+    <Content Include="images\annnnnnnnn.png" />
+    <Content Include="images\anxietybtn.png" />
+    <Content Include="images\anximg.png" />
+    <Content Include="images\artbtn.png" />
+    <Content Include="images\bipolarbtn.png" />
+    <Content Include="images\bipolarimg.png" />
+    <Content Include="images\bipppp.png" />
+    <Content Include="images\bookbtn.png" />
+    <Content Include="images\connusbtn.png" />
+    <Content Include="images\CONSULTANCYBTN.png" />
+    <Content Include="images\consultancybutton.png" />
+    <Content Include="images\contacct.png" />
+    <Content Include="images\contactus!.png" />
+    <Content Include="images\create quiz.png" />
+    <Content Include="images\create survey.png" />
+    <Content Include="images\createquiz.png" />
+    <Content Include="images\depimg.png" />
+    <Content Include="images\depppppppppp.png" />
+    <Content Include="images\depressionbtn.png" />
+    <Content Include="images\doc.png" />
+    <Content Include="images\doc0,1.png" />
+    <Content Include="images\doc0,2.png" />
+    <Content Include="images\doc1.png" />
+    <Content Include="images\doc22.png" />
+    <Content Include="images\eatingdisbtn.png" />
+    <Content Include="images\eatingdisorderimg.png" />
+    <Content Include="images\eattttttttt.png" />
+    <Content Include="images\editcommunity.png" />
+    <Content Include="images\feedback form.png" />
+    <Content Include="images\feedback form2.png" />
+    <Content Include="images\feedbackbtn.png" />
+    <Content Include="images\hlogo.png" />
+    <Content Include="images\home1.png" />
+    <Content Include="images\home2.0.png" />
+    <Content Include="images\home2.png" />
+    <Content Include="images\homee.png" />
+    <Content Include="images\jcommbtn.png" />
+    <Content Include="images\JOIN COMMUNITY 2.png" />
+    <Content Include="images\JOIN COMMUNITY.png" />
+    <Content Include="images\JOINBTN.png" />
+    <Content Include="images\LOGIN PAGE.png" />
+    <Content Include="images\loogoutbtn.png" />
+    <Content Include="images\manebtn.png" />
+    <Content Include="images\mentimeter_qr_code.png" />
+    <Content Include="images\music play.png" />
+    <Content Include="images\music.png" />
+    <Content Include="images\music1.png" />
+    <Content Include="images\music11.png" />
+    <Content Include="images\MUSIC2 %281%29.png" />
+    <Content Include="images\music22.png" />
+    <Content Include="images\MUSIC3 %281%29.png" />
+    <Content Include="images\music33.png" />
+    <Content Include="images\MUSIC4 %281%29.png" />
+    <Content Include="images\music44.png" />
+    <Content Include="images\musicbtn.png" />
+    <Content Include="images\project empty.png" />
+    <Content Include="images\quizpg.png" />
+    <Content Include="images\quizpg1.png" />
+    <Content Include="images\relaxntbtn.png" />
+    <Content Include="images\Resultbtn.png" />
+    <Content Include="images\saathigrp.png" />
+    <Content Include="images\signup %281%29.png" />
+    <Content Include="images\SUBMITBTN.png" />
+    <Content Include="images\SURVEY %282%29.png" />
+    <Content Include="images\taaketestbtn.png" />
+    <Content Include="images\Taupe Organic Warm Blogger Bio Link Website %281%29.png" />
+    <Content Include="images\test info.png" />
+    <Content Include="images\test1.png" />
+    <Content Include="images\testy1.png" />
+    <Content Include="images\testy2.png" />
+    <Content Include="images\testy3.png" />
+    <Content Include="images\us con.png" />
+    <Content Include="images\vedio.png" />
+    <Content Include="images\view analysisbtn.png" />
+    <Content Include="images\view feedback.png" />
+    <Content Include="images\VIEW REPORT11.png" />
+    <Content Include="images\VIEW REPORTBTN.png" />
+    <Content Include="images\viewfeedbackbtn.png" />
+    <Content Include="images\y1.png" />
+    <Content Include="images\y10.png" />
+    <Content Include="images\y2.png" />
+    <Content Include="images\y3.png" />
+    <Content Include="images\y4.png" />
+    <Content Include="images\y5.png" />
+    <Content Include="images\y6.png" />
+    <Content Include="images\y7.png" />
+    <Content Include="images\y8.png" />
+    <Content Include="images\y9.png" />
+    <Content Include="images\yoobtn.png" />
+    <Content Include="jcomm2.aspx" />
+    <Content Include="joincommity.aspx" />
+    <Content Include="LOGINPAGE.aspx" />
+    <Content Include="music.aspx" />
+    <Content Include="musicbtn.png" />
+    <Content Include="Report.aspx" />
+    <Content Include="survey.aspx" />
+    <Content Include="taketestdepp.aspx" />
+    <Content Include="Taupe Organic Warm Blogger Bio Link Website %281%29.png" />
+    <Content Include="testinfo.aspx" />
+    <Content Include="testoption.aspx" />
+    <Content Include="therapy.aspx" />
+    <Content Include="welcome.aspx" />
+    <Content Include="images\1.png" />
+    <Content Include="images\adlogbtn.png" />
+    <Content Include="images\admin.png" />
+    <Content Include="images\conn.png" />
+    <Content Include="images\here at.png" />
+    <Content Include="images\hereatt.png" />
+    <Content Include="images\login bt.png" />
+    <Content Include="images\login2.0.png" />
+    <Content Include="images\post1.png" />
+    <Content Include="images\post2.png" />
+    <Content Include="images\saathi llogp.png" />
+    <Content Include="images\sig bt.png" />
+    <Content Include="images\welcome1.png" />
+    <Content Include="SIGNUP.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="yogaaspx.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="abtanxiety.aspx.cs">
+      <DependentUpon>abtanxiety.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abtanxiety.aspx.designer.cs">
+      <DependentUpon>abtanxiety.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="abtbipolar.aspx.cs">
+      <DependentUpon>abtbipolar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abtbipolar.aspx.designer.cs">
+      <DependentUpon>abtbipolar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="abtdepp.aspx.cs">
+      <DependentUpon>abtdepp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abtdepp.aspx.designer.cs">
+      <DependentUpon>abtdepp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="abteating.aspx.cs">
+      <DependentUpon>abteating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abteating.aspx.designer.cs">
+      <DependentUpon>abteating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="additionalpg1.aspx.cs">
+      <DependentUpon>additionalpg1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="additionalpg1.aspx.designer.cs">
+      <DependentUpon>additionalpg1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="additionalpg2.aspx.cs">
+      <DependentUpon>additionalpg2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="additionalpg2.aspx.designer.cs">
+      <DependentUpon>additionalpg2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN LOGIN.aspx.cs">
+      <DependentUpon>ADMIN LOGIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN LOGIN.aspx.designer.cs">
+      <DependentUpon>ADMIN LOGIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin1.aspx.cs">
+      <DependentUpon>admin1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin1.aspx.designer.cs">
+      <DependentUpon>admin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin2.aspx.cs">
+      <DependentUpon>admin2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin2.aspx.designer.cs">
+      <DependentUpon>admin2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin3.aspx.cs">
+      <DependentUpon>admin3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin3.aspx.designer.cs">
+      <DependentUpon>admin3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin4.aspx.cs">
+      <DependentUpon>admin4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin4.aspx.designer.cs">
+      <DependentUpon>admin4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="articles.aspx.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="articles.aspx.designer.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attempt1.aspx.cs">
+      <DependentUpon>attempt1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="attempt1.aspx.designer.cs">
+      <DependentUpon>attempt1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anxiety.aspx.cs">
+      <DependentUpon>anxiety.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anxiety.aspx.designer.cs">
+      <DependentUpon>anxiety.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attempt3.aspx.cs">
+      <DependentUpon>attempt3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="attempt3.aspx.designer.cs">
+      <DependentUpon>attempt3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attempt44.aspx.cs">
+      <DependentUpon>attempt44.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="attempt44.aspx.designer.cs">
+      <DependentUpon>attempt44.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookrefaspx.aspx.cs">
+      <DependentUpon>bookrefaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookrefaspx.aspx.designer.cs">
+      <DependentUpon>bookrefaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consult.aspx.cs">
+      <DependentUpon>consult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consult.aspx.designer.cs">
+      <DependentUpon>consult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactt.aspx.cs">
+      <DependentUpon>contactt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactt.aspx.designer.cs">
+      <DependentUpon>contactt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crystal1.aspx.cs">
+      <DependentUpon>crystal1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="crystal1.aspx.designer.cs">
+      <DependentUpon>crystal1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form1.aspx.cs">
+      <DependentUpon>form1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form1.aspx.designer.cs">
+      <DependentUpon>form1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jcomm2.aspx.cs">
+      <DependentUpon>jcomm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jcomm2.aspx.designer.cs">
+      <DependentUpon>jcomm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="joincommity.aspx.cs">
+      <DependentUpon>joincommity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="joincommity.aspx.designer.cs">
+      <DependentUpon>joincommity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOGINPAGE.aspx.cs">
+      <DependentUpon>LOGINPAGE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGINPAGE.aspx.designer.cs">
+      <DependentUpon>LOGINPAGE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mentalwellness.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mentalwellness.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="music.aspx.cs">
+      <DependentUpon>music.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="music.aspx.designer.cs">
+      <DependentUpon>music.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="survey.aspx.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="survey.aspx.designer.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="taketestdepp.aspx.cs">
+      <DependentUpon>taketestdepp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="taketestdepp.aspx.designer.cs">
+      <DependentUpon>taketestdepp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testinfo.aspx.cs">
+      <DependentUpon>testinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testinfo.aspx.designer.cs">
+      <DependentUpon>testinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testoption.aspx.cs">
+      <DependentUpon>testoption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testoption.aspx.designer.cs">
+      <DependentUpon>testoption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="therapy.aspx.cs">
+      <DependentUpon>therapy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="therapy.aspx.designer.cs">
+      <DependentUpon>therapy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.aspx.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="welcome.aspx.designer.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SIGNUP.aspx.cs">
+      <DependentUpon>SIGNUP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SIGNUP.aspx.designer.cs">
+      <DependentUpon>SIGNUP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Wellness.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wellness.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="yogaaspx.aspx.cs">
+      <DependentUpon>yogaaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yogaaspx.aspx.designer.cs">
+      <DependentUpon>yogaaspx.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mentalwellness.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>mentalwellness.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wellness.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Wellness.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52422</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
